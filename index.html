@@ -1,237 +1,155 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website - Easy  Tutorials</title>
-    <link rel="stylesheet" href="style.css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-     <i class="fa-brands fa-app-store"></i>
- </head>
- <body>
-    <div id="header">
- <div class="container">
-    <nav>
-        <img src="logo.png" class="logo">
-        <ul>
-            <li><a href="#header">Home</a></li> 
-            <li><a href="#abuot">About</a></li> 
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li> 
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="header-text">
-      <p>UI/UX Designer</p>
-      <h1>Hi, I'm <span>Clever</span> <br>From Nigeria</h1>
+    <title>Clever weebsite</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.
+    0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLpro
+    +NBkk5gbc67FaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body>
+   <!---Navbar Section-->
+   <nav class="navbar">
+    <div class="navbar_container">
+    <a href="#home" id="navbar_logo">COLOR</a>
+    <div class="navbar_toggle" id="mobile-menu">
+        <span class="bar"></span><span class="bar"></span>
+        <span class="bar"></span>
     </div>
- </div>
+    <ul class="navbar_menu">
+        <li class="navbar_item">
+            <a href="#home" class="navbar_links" id="home-page">Home</a>
+        </li>
+        <li class="navbar_item">
+            <a href="#about" class="navbar_links" id="about-page">about</a>
+        </li>
+        <li class="navbar_item">
+            <a href="#services" class="navbar_links" id="services-page">Services</a>
+        </li>
+        <li class="navbar_btn">
+            <a href="#sign-up" class="button" id="signup">Sign Up</a>
+        </li>
+    </ul>
     </div>
-    <!-- About -->
-    <div id="about">
-      <div id="container">
-         <div class="row">
-            <div class="about-col-1">
-               <img src="user.png" alt="">
+   </nav>
+   <!--- Hero  Section --->
+   <div class="hero" id="home">
+    <div class="hero_container">
+     <h1 class="hero_heading">Choose your <span>colors</span></h1>  
+     <p class="hero_description">Unlimited Possibilities</p> 
+     <button class="main_btn"><a href="#"> Explore</a></button>
+    </div>
+   </div>
+   <!--About Section-->
+   <div id="about" class="main">
+    <div class="main__container">
+        <div class="main__img__container">
+            <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+        </div>
+        <div class="main__content">
+        <h1>What do we do?</h1>
+        <h2>We help businesses scale</h2>   
+        <p>Schedule a call to learn more about our services</p> 
+         <button class="main_btn"><a href="#">Schedule Call</a></button>
+        </div>
+    </div>
+   </div>
+   <!--Services Section ---->
+   <div class="services" id="services">
+    <h1>Our Services</h1>
+    <div class="services__wrapper">
+        <div class="services__card">
+         <h2>Custom Colorways</h2>
+         <p>AI powered technology</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+         <div class="services__card">
+         <h2>Are you Ready</h2>
+         <p>Take the lepa</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+         <div class="services__card">
+         <h2>Full Graduents</h2>
+         <p>100 Combinations</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+         <div class="services__card">
+         <h2>Infinite Choices</h2>
+         <p>1000's of colors</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+    </div>
+   </div>
+   <!---Features Section--->
+   <div id="sign-up" class="main"></div>
+    <div class="main__container">
+     <h1>Join Our Team</h1>
+        <div class="main__img__container">
+             <h2>Sign Up Today</h2>   
+        <p>See what makes us differnet</p> 
+         <button class="main_btn"><a href="#">Sign Up</a></button>
+        </div>
+        <div class="main__img--card" id="card-2">
+            <i class="fas fa-users"></i></div>
+        </div>
+        <!-----Footer Section ----->
+        <div class="footer__container">
+            <div class="footer__links">
+                <div class="footer__link--wrapper">
+             <div class="footer__link--items">
+                  <h2>About Us</h2>
+                  <a href="/sign-up">How it works</a>
+                  <a href="/sign-up">Tesrimonials</a>
+                  <a href="/sign-up">Careers</a><a href="/sign-up">Terms of services</a>
+              </div>
+              <div class="footer__link--items">
+                  <h2>Contact Us</h2>
+                  <a href="/sign-up">Contact</a>
+                  <a href="/sign-up">Destinations</a><a href="/sign-up">Support</a>
+              </div>
+              </div>
+              <div class="footer__link--wrapper">
+              <div class="footer__link--items">
+                  <h2>Video</h2>
+                  <a href="/sign-up">Submit Video</a>
+                  <a href="/sign-up">Agency</a><a href="/sign-up">Ambasadors</a>
+              </div>
+              <div class="footer__link--items">
+                  <h2>Social Media</h2>
+                  <a href="/sign-up">Instagram</a><a href="/sign-up">Facebook</a>
+                  <a href="/sign-up">Youtube</a><a href="/sign-up">Twitter</a>
+              </div>
+              </div>
             </div>
-            <div class="about-col-2">
-               <h1 class="sub-title">About Me</h1>
-             <p>lorem ipsum dolor, sit amet consectetur 
-                  adipisicing elit. Nobis fugiat consectetur 
-                  illum nulla fuga adipisci, consequuntur reprehenderit
-                   voluptatem fugit in facilis.</p>
-            <div class="tab-titles"> 
-            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
-            <p class="tab-links" onclick="opentab('experience')">Experience</p>
-           <p class="tab-links" onclick="opentab('education')">Education</p>
-         </div>
-         <div class="tab-contents active-tab" id="skills">
-            <ul>
-               <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
-               <li><span>Web Development </span><br>Web app Development</li>
-               <li><span>App Development</span><br>Building Androud/ios apps</li>
-            </ul>
-         </div>
-         <div class="tab-contents" id="experience">
-            <ul>
-               <li><span>2021 - Current</span><br>UI/UX Design Training at ET 
-                  Institute</li>
-               <li><span>2019-2021</span><br>Team lead at StarApp LLC</li>
-               <li><span>2017-2019</span><br>UI/UX Design Executive at coin 
-                  Digital Ltd.</li>
-               <li><span>2016-2017</span><br>Internship at ekart eCommerce.</li>
-            </ul>
-         </div>
-         <div class="tab-contents" id="education">
-            <ul>
-               <li><span>2016</span><br>UI/UX Design Training at ET 
-                  Institute</li>
-               <li><span>2016</span><br>MBAfrom MIT Bangalore.</li>
-               <li><span>2014</span><br>BBA from ISM Bangalore.</li>
-            </ul>
-         </div> 
-       </div>
-       </div>
-      </div>
-    </div>
-    <!-----------service------------->
-<div id="service">
-   <div class="container">
-      <h1 class="sub-title">My Serivces</h1>
-      <div class="services-list">
-         <div>
-            <i class="fas fa-code"></i>
-            <h2>Web Design</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-               Ipsum dolorum maiores laudantium a temporibus illo ab 
-               veritatis facere ex velit qui possimus necessitatibus
-                exercitationem.</p>
-                <a href="#">Learn more</a>
-         </div>
-          <div>
-            <i class="fas fa-crop-alt"></i>
-            <h2>UI/UX Design</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur. 
-               Ipsum dolorum maiores laudantiab facere ex 
-                exercitationem.</p>
-                <a href="#">Learn more</a>
-         </div>
-          <div>
-            <i class="fa-brands fa-app-store"></i>
-            <h2>App Design</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur. 
-               Ipsum dolorum maiores laudantium a
-               veritatis qui possimus necessitatibus
-                exercitationem.</p>
-                <a href="#">Learn more</a>
-         </div>
-      </div>
-   </div>
-</div>
- <!-----------portfolio-------------> 
- <div id="portfolio">
-<div class="container">
-   <h1 class="sub-title">My Work</h1>
-   <div class=" work-list ">
-      <div class="work">
-         <img src="work.1jng">
-         <div class="layer">
-         <h3>Social Media App</h3>
-      <p>The app connect you yo talented people around the world. 
-         Download it from play store.</p>
-         <a href="#"><i class="fas fa-external-link-alt"></i></a>
-         </div>
-      </div>
-      <div class="work">
-         <img src="work.2jng">
-          <div class="layer"> 
-         <h3>Business App</h3>
-      <p>The app connect you yo talented people around the world. 
-         Download it from play store.</p>
-         <a href="#"><i class="fas fa-external-link-alt"></i></a>
-         </div>
-      </div>
-      <div class="work">
-         <img src="work.3jng">
-          <div class="layer"> 
-         <h3>Cultural App</h3>
-      <p>The app connect you yo talented people around the world. 
-         Download it from play store.</p>
-         <a href="#"><i class="fas fa-external-link-alt"></i></a>
-         </div>
-      </div>
-   </div>
-   <a href="#" class="btn">See more</a>
-</div>
- </div>
-  <!----------contact--------->
-  <div id="contact">
-   <div class="container">
-      <div class="row">
-      <div class="contact-left">
-          <h1 class="sub-title">Contact Me</h1>
-          <p>calebogbodo123@gmail.com</p>
-          <p>+2348144943346</p>
-          <div class="social-icons">
-            <a href=""><i class="fab fa-facebook"></i></a>
-             <a href=""><i class="fab fa-twitter-square"></i></a>
-              <a href=""><i class="fab fa-instagram"></i></a>
-               <a href=""><i class="fab fa-linkedin"></i></a>
-          </div>
-          <a href="my-cv.mp4"download class="btn btn2">Download CV</a>
-       </div>
-      <div class="contact-right">
-         <form name="submit-to-google-sheet">
-         <input type="text" name="Name" placeholder="Your Name" required>
-         <input type="email" name="Email" placeholder="Your Email" required>
-         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-         <button type="submit" class="btn btn2">Submit</button>
-      </form>
-      <span id="mgs"></span>
-      </div>
-      </div>
-   </div>
-   <div class="copyright">
-      <p>copyright @ Clever. Made with <i class="fas fa -heart"></i> by Easy Tutorials</p>    
-      </div>
-  </div>
+            <section class="social__media">
+                <div class="socoial__media--wrap">
+                    <div class="footer__logo">
+                        <a href="/" id="footer__logo">COLOR</a>
+                    </div>
+                    <p class="website__rights">@ COLOR 2020. All rights reserved</p>
+                    <div class="social__icons">
+                        <a href="/" class="social__icon--link" target="_blank"
+                        ><i class="fab fa-facebook"></i
+                            ></a>
+                             <a href="/" class="social__icon--link"
+                        ><i class="fab fa-instagram"></i
+                            ></a>
+                             <a href="/" class="social__icon--link"
+                        ><i class="fab fa-youtube"></i
+                            ></a>
+                             <a href="/" class="social__icon--link"
+                        ><i class="fab fa-linkedin"></i
+                            ></a>
+                             <a href="/" class="social__icon--link"
+                        ><i class="fab fa-twitter"></i
+                            ></a>
+                    </div>
+                </div>
+            </section>
+          </div> 
 
-
-    <script>
-
-          var tablinks = document.getElementsByClassName("tab-links");
-          var tabcontents = document.getElementsByClassName("tab-contents");
-
-          function opentab (tabname){
-            for(tablink of tablinks){
-               tablink.classList.remove("active-link");
-            }
-             for(tabcontents of tabcontents){
-               tabcontents.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-
-          } 
-
-
-    </script>
-    <script>
-      var  sidemenu = document.getElementById("sidemenu");
-      function openmenu(){
-         sidemenu.style.right = "0";
-      }
-       function closemenu(){
-         sidemenu.style.right = "-200px";
-      }
-    </script>
-   <script>
-
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwIt5biQpnWIz43JSj6W9DntfBgyB39Lm7Aqi33YpScns4EhVLoD3MqtDc8aLhbPz5e/exec';
-
-const form = document.forms['submit-to-google-sheet'];
-const msg = document.getElementById("msg");
-
-form.addEventListener('submit', e => {
-    e.preventDefault();
-
-    fetch(scriptURL, {
-        method: 'POST',
-        body: new FormData(form)
-    })
-    .then(response => {
-        msg.innerHTML = "Message sent successfully";
-
-        setTimeout(function() {
-            msg.innerHTML = "";
-        }, 5000);
-
-        form.reset();
-    })
-    .catch(error => console.error('Error!', error.message));
-});
-
-</script>
-    
- </body>
- </html>
+    <script src="app.js"></script>
+</body>
+</html>
